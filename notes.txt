@@ -1,0 +1,6 @@
+have to figure out how to auto inpu recipes
+
+command to run is:
+path/to/indepth_executable infile.in 1> outfile.out 2> errfile.err
+
+

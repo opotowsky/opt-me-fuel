@@ -1,3 +1,26 @@
 titl=Test INDEPTH with Atrium 10x10
 arplib=atrium10x10-9
+type=standard
+libr=acti fipr end
+enrich=2.9
+ncyc=1
+mod=0.72
+reload=no
+gamunc=3
+calc=0
+ini=0
+burn=2 1 20 0.1
+
+read components
+    final= NUCLIDE CONC LIST HERE CAN'T DO GAMMA YET end 
+end components
+
+read history
+    power=20 burn=750 down=1115.25 end
+end history
+
+read optimize
+    itmax=1 bmin=9000 bmax=60000 alpha=1.0 sse=standard end
+    params= ??? end
+end optimize
 
