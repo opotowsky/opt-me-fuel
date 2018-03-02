@@ -2,7 +2,7 @@ titl=Test INDEPTH with Atrium 10x10
 arplib=atrium10x10-9
 type=standard
 libr=acti fipr end
-enrich=2.9
+enrich=4.0
 ncyc=1
 mod=0.72
 reload=no
@@ -12,7 +12,8 @@ ini=0
 burn=2 1 20 0.1
 
 read components
-    final= NUCLIDE CONC LIST HERE CAN'T DO GAMMA YET end 
+    initial= U 100.0
+    final= final_nuc.csv
 end components
 
 read history
