@@ -12,8 +12,7 @@ ini=0
 burn=2 1 20 0.1
 
 read components
-    initial= U 100.0
-    final= final_nuc.csv
+    final= final_inv.csv
 end components
 
 read history
@@ -21,7 +20,7 @@ read history
 end history
 
 read optimize
-    itmax=1 bmin=9000 bmax=60000 alpha=1.0 sse=standard end
+    itmax=1 bmin=100 bmax=80000 alpha=1.0 sse=standard end
     params= ??? end
 end optimize
 
